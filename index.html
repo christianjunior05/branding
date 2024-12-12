@@ -7,6 +7,20 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
     <link rel="stylesheet" href="src/css/output.css">
+    <style>
+        .apparaitre{
+  opacity:0;
+  transform:translateY(-30px) ;
+}
+
+
+
+.apparaitre-visible{
+  opacity: 1;
+  transform: translateY(0);
+  transition:1s;
+}
+    </style>
    
 <body> 
     <header style="background: url(arriereplanrouge.jpg);
@@ -14,18 +28,17 @@
     " class="grid grid-cols-2 " >
 
       
-            <div class=" text-white  pt-10 "  >
-                <p class="m-auto  w-52 h-10 bg-slate-950 ">Masterclass liv inedite</p>
-                <div class="  w-4/6 m-auto">
-                    <p class=" font-extrabold text-3xl  uppercase     text-center mb-8 "> Le plan en 4 tapes pour <span class="underline">creer et vendre 
+            <div class="  text-white  pt-10  flex justify-center items-center    "  >
+                <div class="   w-4/6 h-5/6 m-auto  flex flex-col justify-between ">
+                    <p class=" apparaitre font-extrabold text-3xl  uppercase     text-center mb-8 w-11/12 "> Le plan en 4 tapes pour <span class="underline">creer et vendre 
                     </span>votre 
                     premiere formation en ligne</p>
-                    <p class="text-xl w-5/6 text-start   mb-4">Meme si vous n'avez pas d'audience que vous debutez de zero et sans budjet publicité</p>
+                    <p class="apparaitre text-2xl w-5/6 text-start mb-4 ">Meme si vous n'avez pas d'audience que vous debutez de zero et sans budjet publicité</p>
         
         
         <div>
 
-            <div class="formulaire_radio">
+            <div class=" apparaitre  formulaire_radio">
                 <Strong class=" m-auto borderfont-light text-2xl block first-letter:uppercase mb-3 text-center"> inscrivez-vous dès maintenant 👇</Strong>
 
                 <label for="Lundi" class="   block  p-3 rounded-full  bg-slate-200 mb-4 "> <span class="text-black text-xl">Lundi 09/12 à 12h30</span> <input style="transform: scale(200%);" class=" inputradio outline-2 relative left-60 outline-none cursor-pointer    " type="radio" placeholder="" name="Lundi" id="input"></label>
@@ -33,7 +46,7 @@
                 
             </div>
            
- <div class="formulaire_email hidden">
+ <div class="formulaire_email ">
  <input type="email" placeholder="Email" class="w-full p-3 rounded-md placeholder:text-2xl mb-8 ">
  <input type="text" placeholder="prenom" class="w-full p-3 rounded-md placeholder:text-2xl mb-8">
  <div class=" text-2xl font-bold m-auto   w-96  h-14 flex items-center justify-center  rounded-md text-white mb-10 bg-red-700 " ><a href="">s'inscrire gratuitement >  </a></div>
@@ -47,12 +60,12 @@
            
             </div>
     
-       <div class=""> <img src="femmerouge.png" alt="" class=" block  p-3   "></div>
+       <div class=" apparaitre"> <img src="femmerouge.png" alt="" class=" block  p-3   "></div>
   
 
     </header>
 
-    <section class=" ">
+    <section class=" apparaitre ">
 <ul class="bg-slate-950 flex justify-evenly items-center  h-44 ">
     <li class="   flex flex-col  items-center  "><img src="coins-removebg-preview.png" alt=""  class=" w-36"> <p class="text-white font-medium text-xl">+500K€ encaissé en 1 an</p></li>
     <li class="   h-2/3  flex flex-col justify-center "><img src="tiktok.avif" alt="" class="w-36  " >  <p class="text-white font-medium text-xl">+800K abonnés</p> </li>
@@ -64,7 +77,9 @@
     <section class="decouvrez p-10 mb-10 bg-slate-200   ">
         <h1 class=" text-5xl font-extrabold uppercase  text-center mb-10 text-blue "> ce que vous decouvrez</h1>
  <div class=" border w-11/12 flex flex-wrap justify-evenly m-auto">
-     <div class="p-4 w-72  text-white rounded-md inline-block mb-3 bg-blue">
+
+     <div class=" apparaitre  p-4 w-72  text-white rounded-md inline-block mb-3 bg-blue" >
+
     <p class="text-2xl font-bold  leading-6 mb-4  "> Trouver une idée de formation qui 
         sera exactement ce dont votre client
          cible a besoin
@@ -79,7 +94,9 @@
         Si vous ne savez pas encore quoi, c'est normal</p>
 </div>
 
-<div class="  p-4 w-72  h-3/4 text-white rounded-md  inline-block mb-3 bg-blue" >
+
+<div class=" apparaitre p-4 w-72  h-3/4 text-white rounded-md  inline-block mb-3 bg-blue">
+
     <p class="text-2xl font-bold  leading-6 mb-4  ">Ma méthode pour créer LA formation irrésistible</p>
     <div>
         <img src="graph1.jpg " alt="" class="rounded-md mb-3">
@@ -88,7 +105,10 @@
     
     <p class="text-xl">Vous en savez plus que <strong>90% des gens</strong> J'ai créé et vendu +16 formations en 3ans. Je sais exactement ce qu'il faut pour qu'elle soit efficace et qu'elle se vende</p>
 </div>
-<div class="  p-4 w-72  text-white rounded-md  inline-block mb-3 bg-blue">
+
+
+<div class="apparaitre  p-4 w-72  text-white rounded-md  inline-block mb-3 bg-blue">
+
     <p class="text-2xl font-bold  leading-6 mb-4  "> Les différentes techniques pour la vendre
     </p>
     <div>
@@ -104,8 +124,11 @@
     </section>
 
 
-    <section class=" qui suis-je">
-  <h2 class="font-extrabold text-6xl uppercase  text-center mb-4 text-blue"> qui suis-je ?</h2>
+
+  
+    <section class=" apparaitre qui suis-je">
+  <h2 class="font-extrabold text-6xl uppercase  text-center mb-4 bg-blue"> qui suis-je ?</h2>
+
 
   <div class="flex flex-wrap flex-row   justify-evenly w-10/12 m-auto mb-16 ">
     <div class="  border w-2/4 text-xl p-5 rounded-md shadow-2xl">
@@ -141,7 +164,7 @@
   <div class=" text-2xl font-bold m-auto   w-96  h-14 flex items-center justify-center  rounded-md text-white mb-10 " style="background-color : rgb(197, 7, 7);"><a href="">je veux voir ça <i class="fa-solid fa-chevron-right  "></i></a></div>
     </section>
 
-    <section class="decouvrez p-10 mb-10" style="background-color:rgb(197, 7, 7);">
+    <section class="apparaitre fait confiance p-10 mb-10 apparaitre" style="background-color:rgb(197, 7, 7);">
         <h1 class=" text-5xl font-extrabold uppercase  text-center mb-10 text-white"> il m'ont fait confiance</h1>
         <div class="  w-11/12 flex flex-wrap justify-evenly m-auto">
 
@@ -208,7 +231,7 @@
         
     </section>
 
- <section class="pb-10">
+ <section class=" apparaitre pb-10">
 
 
     <div class="   pt-10 "  >
@@ -223,10 +246,10 @@
         
     </div>
    
-<div class="formulaire_email hidden">
-<input type="email" placeholder="Email" class="w-full p-3 rounded-md placeholder:text-2xl mb-8 ">
-<input type="text" placeholder="prenom" class="w-full p-3 rounded-md placeholder:text-2xl mb-8">
-<div class=" text-2xl font-bold m-auto   w-96  h-14 flex items-center justify-center  rounded-md text-white mb-10 bg-red-700 " ><a href="">s'inscrire gratuitement >  </a></div>
+<div class="formulaire_email  w-1/3 m-auto">
+<input type="email" placeholder="Email" class=" border border-black w-full p-3 rounded-md placeholder:text-2xl mb-8 ">
+<input type="text" placeholder="prenom" class=" border border-black w-full p-3 rounded-md placeholder:text-2xl mb-8">
+<div class=" text-2xl font-bold m-auto   w-4/5   h-14 flex items-center justify-center  rounded-md text-white mb-10 bg-red-700 " ><a href="">s'inscrire gratuitement >  </a></div>
 
 </div>
 </div>
@@ -240,14 +263,14 @@
  </section>
             
     
-  <footer class="bg-black text-white h-96">
-    <div>
+  <footer class="apparaitre  bg-black text-white ">
+    <div class="flex flex-col justify-center items-center h-96  ">
         <div>
-            <img src="" alt="">  <h3 class="text-3xl  font-bold uppercase w-40 m-auto">la meuf en rouge</h3>
+            <img src="" alt="">  <h3 class="text-3xl  font-bold uppercase w-40 ">la meuf en rouge</h3>
         </div>
-          <p class=" text-2xl font-light first-letter:uppercase w-40 text-center m-auto">mention legale  CGV</p>
+          <p class=" text-2xl font-light first-letter:uppercase w-40 text-center  ">mention legale  CGV</p>
 
-          <p> Ce site ne fait pas partie du site YouTube™, Google™, Facebook™, Google Inc. 
+          <p class="text-2xl font-light w-4/5 text-center "> Ce site ne fait pas partie du site YouTube™, Google™, Facebook™, Google Inc. 
             ou Facebook Inc. De plus, ce site n’est PAS approuvé par YouTube™, Google™ ou Facebook™ 
             en aucune façon. FACEBOOK™ est une marque de commerce de FACEBOOK, Inc. 
             GOOGLE™ et YOUTUBE™ sont des marques de commerce de GOOGLE Inc.</p>
@@ -264,13 +287,45 @@ const formulaire_email = document.querySelectorAll(".formulaire_email")
 console.log(formulaire_radio)
 console.log(formulaire_email)
 
-radioButtons.forEach(radio => {
-  radio.addEventListener('click', () => {
- formulaire_radio.forEach(form_ratio => {
-    form_ratio.classList.add('hidden')
- });
-});
-});
+
+ for (let index = 0; index < formulaire_email.length; index++) {
+     const element_email = formulaire_email[index];
+     const element_ratio=formulaire_radio[index];
+     element_email.classList.add('hidden') 
+    
+  element_ratio.addEventListener('click',(e)=>{
+
+   element_ratio.classList.add('hidden') 
+   element_email.classList.remove('hidden') 
+  })
+   
+ }
+
+
+ ratio=0.2
+   const options = {
+       root: null,
+       rootMargin: "0px",
+       threshold:ratio,
+     };
+     
+   
+   const callback =function(entries, observer){
+      entries.forEach(function(entry) {
+        if(entry.intersectionRatio > ratio){
+        entry.target.classList.add('apparaitre-visible')
+           observer.unobserve(entry.target);
+    }
+      });
+   }
+   
+   const observer = new IntersectionObserver(callback, options);
+   document.querySelectorAll(".apparaitre").forEach(function(r){
+       observer.observe(r)
+   })
+
+
+
     </script>
 </body>
 </html>
