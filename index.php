@@ -267,7 +267,6 @@ require_once "traitement.php";
                 </div>
 
 
-
             </div>
 
     </section>
@@ -322,7 +321,7 @@ require_once "traitement.php";
 
             <h3
                 class="text-3xl  font-bold uppercase w-40  max-sm:w-52 max-sm:text-center max-sm:font-semibold  text-center ">
-                la meuf en rouge</h3>
+                Votre King Préféré</h3>
 
             <p class=" text-2xl font-light first-letter:uppercase w-40 text-center  max-sm:text-center  ">mention
                 legale
