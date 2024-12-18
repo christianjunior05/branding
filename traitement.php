@@ -1,8 +1,6 @@
  <?php
 
  // Désactiver l'affichage des warnings et des notices
-error_reporting(E_ALL & ~E_WARNING & ~E_NOTICE);
-ini_set('display_errors', 0); // Désactiver l'affichage des erreurs
 
 
 require_once "connexion.php";
@@ -88,73 +86,4 @@ require_once "connexion.php";
 
   
      }
-?> 
-
-
-
-<?php
-
-// $fullname= $email ="";
-// $fullname_error = $email_error = "";
-
-// function test_input($data) {
-//     $data = trim($data);
-//     $data = stripslashes($data);
-//     $data = htmlspecialchars($data);
-//     return $data;
-// }
-
-
-// if (isset($_POST['submit'])) {
-
-//     if (empty($_POST['fullname'])) {
-//         $fullname_error = 'Votre nom et prénom sont obligatoires';
-//     } else {
-//         $fullname = test_input($_POST['fullname']);
-//         if (!preg_match("/^[A-Za-z\- ]{2,50}$/", $fullname)) {
-//             $fullname_error = "Entrez un nom et prénom valide, s'il vous plaît";
-//         }
-//     }
-
-//     if (empty($_POST["email"])) {
-//         $email_error = "Le champ email est obligatoire";
-//     } else {
-//         $email = test_input($_POST["email"]);
-//         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-//             $email_error = "Cet email est invalide";
-//         }
-//     }
-
-//     require_once "connexion.php";
-
-
-//     $sql = "SELECT * FROM user WHERE email='$email'";
-//     $result = mysqli_query($connexion, $sql);
-//     if (!$result) {
-//         die('Erreur SQL : ' . mysqli_error($connexion));
-//     }
-
-//     $row_compte = mysqli_num_rows($result);
-//     if ($row_compte > 0) {
-//         $email_error = "Cet email existe déjà, veuillez essayer un autre, s'il vous plaît";
-//     }
-
-  
-//     if (empty($email_error) && empty($fullname_error)) {
-//         $sql = "INSERT INTO user (email, fullname) VALUES (?, ?)";
-//         if ($stmt = mysqli_prepare($connexion, $sql)) {
-//             mysqli_stmt_bind_param($stmt, "ss", $email, $fullname);
-//             if (mysqli_stmt_execute($stmt)) {
-//                 echo "Inscription réussie";
-//             } else {
-//                 echo "Erreur d'exécution de la requête : " . mysqli_error($connexion);
-//             }
-//         } else {
-//             echo "Erreur de préparation de la requête : " . mysqli_error($connexion);
-//         }
-//     }
-// }
 ?>
-
-
-

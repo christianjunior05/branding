@@ -615,10 +615,6 @@ video {
   display: grid;
 }
 
-.hidden {
-  display: none;
-}
-
 .size-48 {
   width: 12rem;
   height: 12rem;
@@ -935,6 +931,11 @@ video {
 .text-blue {
   --tw-text-opacity: 1;
   color: rgb(33 158 188 / var(--tw-text-opacity, 1));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
