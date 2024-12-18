@@ -251,15 +251,16 @@ require_once "traitement.php";
 
             <div class=" text-center  p-4 w-96 bg-white  rounded-md inline-block mb-3  max-[900px]:w-full  ">
                 <p class="text-2xl   leading-8 mb-4  ">
-                    "Laurine a, pour moi, les 2
-                    meilleures qualités pour
-                    faire d'elle <strong>l'alliée des pro</strong> : elle apprend vite, et
+                    "J'ai eu l'opportunité de collaborer avec Frédéric à deux occasions: (i) dans le cadre de mon
+                    association et (ii) à titre personnel.
+                    <strong>Il est à l'écoute, positif et encourage beaucoup.
+                        Si vous souhaitez un accompagnement en personal branding et social selling, n'hésitez pas à
+                        faire
+                        appel à lui. Il est très disponible.
+                        Je le recommande vivement.</strong>
                     <strong> sait
-                        transmettre mieux que personne.</strong> Ses contenus sont <strong>plein de valeurs</strong>
-                    .
-                    Elle donne des <strong>conseils applicables</strong> et qui fonctionnent. Je la suis depuis
-                    un bail et clairement, ce n'est pas pour rien qu'elle s'est demarquée. 👍"
-                    <strong class="block mt-5">Corentine Nieroz</strong>
+                        transmettre mieux que personne.</strong>
+                    <strong class="block mt-5">Vanessa S TCHAMYOU</strong>
                 </p>
                 <div class=" bg-red-400 rounded-full m-auto " style="height: 100px; width: 100px; ;">
                     <img src="femme_lunette2.PNG" class="rounded-full h-full w-full  object-cover" alt="">
@@ -270,7 +271,7 @@ require_once "traitement.php";
             </div>
 
     </section>
-
+    Ses contenu
     <section class=" apparaitre pb-10">
 
         <div class="   pt-10 ">
