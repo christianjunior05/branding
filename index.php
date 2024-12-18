@@ -180,8 +180,8 @@ require_once "traitement.php";
 
 
                 <strong class="block mb-7">
-                    🏆 Top 1 créatrice de contenu copywriting France
-                    🏆 Top 100 créatrice de contenu LinkedIn France
+                    🏆 3x Linkedin Top Voice
+                    🏆 Top 100 Leader et entrereuneurs Afrique francophone
                 </strong>
 
                 <p class="">Je veux vous partager ce qui m'a permis d'obtenir ces
