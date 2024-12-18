@@ -163,11 +163,12 @@ require_once "traitement.php";
         <div class="flex    flex-row  max-[800px]:flex-col  justify-evenly w-10/12 m-auto mb-16  ">
             <div class="border w-2/4 text-xl p-5 rounded-md shadow-2xl  max-[800px]:w-full max-[800px]:m-auto">
                 <p class="mb-7">Hello, moi c'est Frederic 👋</p>
-                <p class="mb-7">J'ai commencé à <strong>entreprendre à 22 ans</strong> alors que j'étais encore
-                    étudiante.</p>
-                <p class="mb-7"> <strong>Fauchée</strong>, <strong>et sans aucune notion en
-                        entrepreneuriat</strong>,
-                    j'ai quand même sauté le pas en montant mon premier business en ligne.
+                <p class="mb-7">Coach Emploi et <strong>Personal Branding</strong>
+                </p>
+                <p class="mb-7"> <strong>J’aide des étudiants</strong>, <strong>professionnels et entrepreneurs à
+                        obtenir</strong>,
+                    , des opportunités grâce à la
+                    construction d’un personal branding efficace
                 </p>
 
 
@@ -263,7 +264,7 @@ require_once "traitement.php";
                     <strong class="block mt-5">Vanessa S TCHAMYOU</strong>
                 </p>
                 <div class=" bg-red-400 rounded-full m-auto " style="height: 100px; width: 100px; ;">
-                    <img src="femme_lunette2.PNG" class="rounded-full h-full w-full  object-cover" alt="">
+                    <img src="Vanessa.jpg" class="rounded-full h-full w-full  object-cover" alt="">
                 </div>
 
 
